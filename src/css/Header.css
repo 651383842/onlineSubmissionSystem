@@ -1,0 +1,33 @@
+/*
+* @Author: lixiwei
+* @Date:   2018-03-21 16:52:23
+* @Last Modified by:   lixiwei
+* @Last Modified time: 2018-03-21 17:34:51
+*/
+/*     html{
+   font-family:'Comic Sans MS', cursive, sans-serif;
+   padding: 10px;
+   background: #f1f1f1;
+  height: 100%;
+  }
+  body{
+   font-family:'Comic Sans MS', cursive, sans-serif;
+   padding: 0px;
+   background: #f1f1f1;
+  height: 100%;
+  } */
+	  /* 导航栏 */
+	  header{
+	  	font-family:'Comic Sans MS', cursive, sans-serif;
+        background: white;
+        /*#b0d1e3 浅蓝*/
+        align-items: center;
+        justify-content: space-between;
+        display:flex !important;
+        padding:0 20px;
+	  }
+	  nav>ul{list-style: none;align-items: center;display:flex;margin-top: 10px;}
+	  nav>ul>li{padding:10px;}
+	  nav>ul a{text-decoration: none;color:black;align-items:center;display:flex;}
+      home{margin-right:120px;}
+      name{margin-right:120px;}
