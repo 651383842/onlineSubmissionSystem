@@ -6,16 +6,23 @@
 */
 import React from 'react';
 import { Router, Route, hashHistory} from 'react-router';
+import { LocaleProvider } from 'antd';
+import zh_CN from 'antd/lib/locale-provider/zh_CN';
+import 'moment/locale/zh-cn';
 import AuthorCenter from './templates/AuthorCenter';
+import EditorCenter from './templates/EditorCenter';
 import App from './App';
 
 class Routes extends React.Component{
   render() {
     return  (
-	    <Router history={hashHistory}>
-	        <Route path="/" component={AuthorCenter} />
-	        <Route path="/App" component={App} />
-	    </Router>
+        <LocaleProvider locale={zh_CN}>
+            <Router history={hashHistory}>
+                <Route path="/" component={EditorCenter} />
+                <Route path="/authorCenter" component={AuthorCenter} />
+                <Route path="/App" component={App} />
+            </Router>
+        </LocaleProvider>
      );
   }
 }

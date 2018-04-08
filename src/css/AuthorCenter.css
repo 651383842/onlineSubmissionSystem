@@ -1,0 +1,60 @@
+/*
+* @Author: lixiwei
+* @Date:   2018-03-18 17:11:59
+* @Last Modified by:   lixiwei
+* @Last Modified time: 2018-03-27 10:25:23
+*/
+.submitDivShow{
+    display: block;
+    height: 100%;
+    padding: 1rem;
+}
+.submitDivNone{
+    display: none;
+}
+.submitDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#authorization{
+    min-height: 25rem;
+}
+#uploadDiv{
+    min-height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    height: 100%;
+}
+#uploadBtnDiv{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.uploadText{
+    padding: 1rem;
+}
+#uploadSelectDiv{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+}
+.ant-upload-drag{
+    min-width: 20rem;
+}
+.keyWordInputGroup{
+    display: flex;
+}
+.editableCellDiv{
+    width: 5rem;
+}
+.editableCellInput{
+    margin: -0.5rem 0;
+    width: 100%
+}
+.expandedRow{
+    display: none;
+}
